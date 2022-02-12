@@ -128,5 +128,5 @@ async def stocks(stock: str) -> str:
 		return answer
 	except (Exception, RuntimeWarning):
 		return "Stock " + stock + " not found."
-
-client.run("ODk5NDA0OTQ0NTI2OTQyMjA5.YWySIA.zYZUAM97IwMFUHTAQsT1r5beJ04")
+		
+client.run(open("token.txt", 'r').read())

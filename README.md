@@ -1,1 +1,1 @@
-"# otis" 
+"# otis discord.py bot" 
